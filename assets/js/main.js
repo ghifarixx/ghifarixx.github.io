@@ -1,3 +1,10 @@
+// Hilangkan preloader setelah halaman selesai dimuat
+window.addEventListener('load', function() {
+  var preloader = document.getElementById('preloader');
+  if (preloader) {
+    preloader.style.display = 'none';
+  }
+});
 /**
 * Template Name: Arsha
 * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
